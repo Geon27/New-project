@@ -142,6 +142,12 @@
                     <view key="view" contentMode="scaleToFill" id="K5z-kH-b56">
                         <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <colorWell contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="m3j-r1-tFu">
+                                <rect key="frame" x="206" y="636" width="28" height="28"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </colorWell>
+                        </subviews>
                         <viewLayoutGuide key="safeArea" id="bUi-xG-VfR"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                     </view>
