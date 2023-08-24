@@ -133,6 +133,17 @@
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" showsMenuAsPrimaryAction="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" changesSelectionAsPrimaryAction="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Yuf-nZ-ik5">
+                                <rect key="frame" x="175" y="572" width="41" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <menu key="menu" id="FFY-5D-jGk">
+                                    <children>
+                                        <command title="Item 1" id="IxB-gD-bg1"/>
+                                        <command title="Item 2" id="IUB-kq-pAX"/>
+                                    </children>
+                                </menu>
+                                <state key="normal" title="Button"/>
+                            </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="oOs-aX-jAo"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
